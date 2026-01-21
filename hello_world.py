@@ -17,6 +17,10 @@
 #  upgrade
 # initial_start_value: int = 25
 
-cost: float = 15.6799
-print(f"${cost:.2f}")
+# cost: float = 15.6799
+# print(f"${cost:.2f}")
 
+name: str = "   Alice   "
+print(f'{name.lstrip()}')
+print(f'{name.rstrip()}')
+print(f'{name.strip()}')
