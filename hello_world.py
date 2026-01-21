@@ -1,3 +1,4 @@
-print("Hello World")
-print("Hello World")
-print("Hello World")
+group: str = "Universe"
+print(f"Hello {group}")
+print(f"Hello {group}")
+print(f"Hello {group}")
